@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class TEST05 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		TEST05_Circle c[] = new TEST05_Circle[5];
+		for(int i=0; i<c.length; i++) {
+			
+			System.out.print("x, y, radius >>");
+			double.x = sc.nextDouble();
+			double.y = sc.nextDouble();
+			int.radius = sc.nextInt();
+			c[i] = new TEST05_Circle(c[i].x, c[i].y, c[i].radius);
+			
+		}
+		for(int i=0; i<c.length; i++ )
+			c[i].show();
+		sc.close();
+	}
+	
+}

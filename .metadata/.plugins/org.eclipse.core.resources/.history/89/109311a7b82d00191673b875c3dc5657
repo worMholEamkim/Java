@@ -1,0 +1,10 @@
+
+public class TEST09_ArrayUtil {
+	public static int[] concat(int[] a, int[] b) {
+		
+	}
+	
+	public static void print(int[] a) {
+		
+	}
+}

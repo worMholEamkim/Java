@@ -1,0 +1,34 @@
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+
+public class TE07 extends JFrame {
+	
+	public TE07() {
+		setTitle("계산기 프레임");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		GridLayout grid = new GridLayout(4, 4);
+		grid.setVgap(1);
+		
+		Container a1 = getContentPane();
+		Container a2 = getContentPane();
+		Container b = getContentPane();
+		
+		
+		
+		
+		Container c = getContentPane();
+		c.setLayout(new BorderLayout(0, 0));
+		
+		
+	}
+		
+	
+	public static void main(String[] args) {
+		new TE07();
+	}
+
+}

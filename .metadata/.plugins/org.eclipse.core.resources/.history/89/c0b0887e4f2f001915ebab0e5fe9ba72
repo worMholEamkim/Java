@@ -1,0 +1,10 @@
+
+public class EX08 extends JFrame {
+
+	private JLabel la = JLabel("¿ì·Î1º¸");
+	
+	public static void main(String[] args) {
+		new EX08();
+	}
+
+}

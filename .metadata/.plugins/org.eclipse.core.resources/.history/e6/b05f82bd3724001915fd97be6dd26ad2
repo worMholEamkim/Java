@@ -1,0 +1,15 @@
+
+
+public class TEST03 {
+
+	public static void main(String[] args) {
+		TEST03_SONG song = new TEST03_SONG();
+		song.title = "Dancing Queen";
+		song.artist = "ABBA";
+		song.year = 1978;
+		song.country ="¼ö¿þµ§";
+		
+		song.show();
+	}
+
+}

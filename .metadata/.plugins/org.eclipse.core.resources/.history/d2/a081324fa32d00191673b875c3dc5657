@@ -1,0 +1,6 @@
+
+import java.util.Scanner;
+
+public class TEST08_PhoneBook {
+	TEST08_Phone[] phone_arr;
+}

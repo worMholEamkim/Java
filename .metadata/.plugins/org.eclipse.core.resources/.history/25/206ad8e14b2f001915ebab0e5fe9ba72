@@ -1,0 +1,20 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class EX07 extends JFrame {
+	private JLabel la = new JLabel();
+	
+	public EX07() {
+		setTitle("F1 : ÃÊ·ÕÃÊ·Õ, % : ³ë¶û³ë¶û");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container c = getContentPane();
+	
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		new EX07();
+	}
+
+}

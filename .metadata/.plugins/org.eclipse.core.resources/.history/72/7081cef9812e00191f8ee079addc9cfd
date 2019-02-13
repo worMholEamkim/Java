@@ -1,0 +1,47 @@
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class TE03 extends JFrame {
+
+	public TE03() {
+		setTitle("Ten Color Button Frame");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		GridLayout grid = new GridLayout(1, 10);
+		grid.setVgap(1);
+		
+		Container c = getContentPane();
+		JButton [] btn = new JButton[10];
+		for(int i=0; i<10; i++){
+			btn[i] = new JButton("i");
+		}
+		
+		c.setLayout(grid);
+		btn[0].setBackground(Color.RED);
+		c.add(new JButton("0"));
+		c.setBackground(Color.RED);
+		c.add(new JButton("1"));
+		c.add(new JButton("2"));
+		c.add(new JButton("3"));
+		c.add(new JButton("4"));
+		c.add(new JButton("5"));
+		c.add(new JButton("6"));
+		c.add(new JButton("7"));
+		c.add(new JButton("8"));
+		c.add(new JButton("9"));
+		
+		setSize(500,200);
+		setVisible(true);
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		new TE03();
+	}
+
+}

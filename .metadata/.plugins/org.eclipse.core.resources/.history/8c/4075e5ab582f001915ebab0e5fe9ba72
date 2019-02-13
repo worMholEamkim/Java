@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+
+public class EX10 extends JFrame {
+	
+	public EX10() {
+		setTitle("더블클릭하면 바꼉");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = gerContentPane();
+	}
+	
+	
+	public static void main(String[] args) {
+		new EX10();
+	}
+
+}

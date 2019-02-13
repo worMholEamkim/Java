@@ -1,0 +1,20 @@
+
+
+public class TEST08_Phone {
+	TEST08_Phone[] phone_arr;
+	String name;
+	int tel = 0;
+	
+	TEST08_Phone(String name, int tel){
+		this.name = name;
+		this.tel = tel;
+	}
+	
+	public String getName(){
+		return name; 
+	}
+	
+	public int getTel() {
+		return tel;
+	}
+}

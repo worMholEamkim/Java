@@ -1,0 +1,29 @@
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class EX03 {
+
+	public EX03 extends JFrame{
+		setTitle("Action 이벤틀 리스넝");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout());
+		
+		//1
+		JButton btn = new JButton("action");
+		//2
+		btn.addActionListener(new MyActionListener() {});
+		//3
+		c.add(btn);
+		
+	}
+	public static void main(String[] args) {
+		new EX03();
+	}
+	class MyActionListener implements ActionListener{
+		
+	}
+}

@@ -1,0 +1,6 @@
+
+public class TEST10_Dictionary {
+	private static String [] kor = {"»ç¶û", "¾Æ±â", "µ·", "¹Ì·¡", "Èñ¸Á"};
+	private static String [] eng = {"love", "baby", "money", "future", "hope"};
+	
+}

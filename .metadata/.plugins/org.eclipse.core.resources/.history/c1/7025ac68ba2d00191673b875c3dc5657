@@ -1,0 +1,11 @@
+
+public class TEST09_ArrayUtil {
+	public static int[] concat(int[] a, int[] b) {
+		
+	}
+	
+	public static void print(int[] a) {
+		for(int i=0; i<a.length; i++)
+			System.out.println(a[i]);
+	}
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class TEST03 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		TEST03_SONG song[] = new TEST03_SONG[5];
+		for(int i=0; i<song.length; i++)
+		{
+			System.out.print("제목입력>> ");
+			song.title = sc.next();
+			System.out.print("가수입력>> ");
+			song.artist = sc.next();
+			System.out.print("연도입력>> ");
+			song.year = sc.nextInt();
+			System.out.print("국가입력>> ");
+			song.country = sc.next();
+			song[i] = new TEST03_SONG(title, artist, year, country);
+		}
+		for(int i=0; i<song.length; i++)
+			song[i].show();
+	}
+
+}

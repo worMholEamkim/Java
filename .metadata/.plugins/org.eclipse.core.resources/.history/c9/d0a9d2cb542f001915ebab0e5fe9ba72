@@ -1,0 +1,74 @@
+import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class EX09 extends JFrame{
+	
+	private JLabel la = new JLabel("마우스이벤 ㄴ");
+	
+	public EX09() {
+		setTitle("마우스모션데스");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout());
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		new EX09();
+	}
+
+	
+	class MyMouseListener implements MouseListener, MouseMotionListener{
+
+		@Override
+		public void mouseDragged(MouseEvent arg0) {
+			la.setText("mousePressed ("+)
+		}
+
+		@Override
+		public void mouseMoved(MouseEvent arg0) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void mouseClicked(MouseEvent arg0) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void mouseEntered(MouseEvent arg0) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void mouseExited(MouseEvent arg0) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void mousePressed(MouseEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void mouseReleased(MouseEvent e) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+}

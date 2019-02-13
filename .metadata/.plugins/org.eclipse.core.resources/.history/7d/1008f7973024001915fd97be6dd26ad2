@@ -1,0 +1,15 @@
+
+public class TEST05_Circle {
+	double x, y;
+	int radius;
+	
+	TEST05_Circle(double x1, double y1, int radius1){
+		x = x1;
+		y = y1;
+		radius = radius1;
+	}
+	
+	public void show() {
+		System.out.print("(" + x + ", " + y + ")" + radius);
+	}
+}

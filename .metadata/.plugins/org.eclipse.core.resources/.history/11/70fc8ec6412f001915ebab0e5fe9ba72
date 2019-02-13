@@ -1,0 +1,24 @@
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class EX06 extends JFrame{
+	private JLabel[] key Message;
+	
+	public EX06 () {
+		setTitle("keyListener ¿¹Á¦");
+		setDefaultCloseOperation(JFrame.EXUT_ON_CLOSE);
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		new EX06();
+	
+	}
+
+}

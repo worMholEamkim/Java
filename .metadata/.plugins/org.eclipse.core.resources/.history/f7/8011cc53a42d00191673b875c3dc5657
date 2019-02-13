@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+public class TEST08_PhoneBook {
+	TEST08_Phone[] phone_arr;
+	int member;
+	
+	public TEST08_PhoneBook(int member) {
+		this.member = member;
+		phone_arr = new TEST08_Phone[member];
+		for(int i=0;i<phone_arr.length; i++)
+			phone_arr[i] = new TEST08_Phone();
+	Scanner sc = new Scanner(System.in);
+	}
+	
+	public void input(){
+		while (true) {
+			
+		}
+	}
+	
+	public void search(){
+		
+	}
+	
+	
+	
+}

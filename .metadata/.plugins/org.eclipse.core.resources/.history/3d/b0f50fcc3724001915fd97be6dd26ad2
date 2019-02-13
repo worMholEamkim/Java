@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class TEST03 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		TEST03_SONG song[] = new TEST03_SONG[5];
+		for(int i=0; i<song.length; i++)
+		{
+			
+			song.title = sc.next();
+			song.artist = sc.next();
+			song.year = sc.nextInt();
+			song.country = sc.next();
+			song[i] = new TEST03_SONG(String title, String artist,int year,String country);
+		}
+		for(int i=0; i<song.length; i++)
+			song[i].show();
+	}
+
+}

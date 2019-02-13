@@ -1,0 +1,25 @@
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+
+public class TE07 extends JFrame {
+	
+	public TE07() {
+		setTitle("계산기 프레임");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		GridLayout grid = new GridLayout(4, 4);
+		grid.setVap(1);
+		
+		Container c = get ContentPane();
+		
+		
+	}
+		
+	
+	public static void main(String[] args) {
+		new TE07();
+	}
+
+}

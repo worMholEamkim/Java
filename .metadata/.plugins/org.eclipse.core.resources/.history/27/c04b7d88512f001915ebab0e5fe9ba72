@@ -1,0 +1,36 @@
+import java.awt.Container;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class EX08 extends JFrame {
+
+	private JLabel la = new JLabel("우로1보");
+	private final int FLYING = 10;
+	public EX08() {
+		setTitle("상,하,좌,우 키누르면 도망감");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = getContentPane();
+		c.setLayout(null);
+		
+	}
+	
+	public static void main(String[] args) {
+		new EX08();
+	}
+
+	class MyKeyListener2 extends KeyAdapter {
+		@Override
+		public void keyPressed(KeyEvent e) {
+			int keyCode = e.getKeyCode();
+			
+			switch(keyCode) {
+			case KeyEvent.VK_UP:
+				la.setLocation(la.getX(), la.getY()-FLYING);
+			}
+		}
+	}
+}

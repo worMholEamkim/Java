@@ -1,0 +1,20 @@
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class EX01 {
+
+	
+	public EX01() {
+		setTitle("Action 이벤트 리스너 예제스");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout());
+		
+	}
+	public static void main(String[] args) {
+		new EX01();
+	}
+
+}
