@@ -21,7 +21,7 @@ class MyPanel extends JPanel
 		//1.금액 글자 레이블
 		JLabel la = new JLabel("금액");
 		la.setHorizontalAlignment(JLabel.RIGHT);
-		la.setSize(50, 20);
+		la.setSize(50, 20);P
 		la.setLocation(20, 20);
 		add(la);
 		

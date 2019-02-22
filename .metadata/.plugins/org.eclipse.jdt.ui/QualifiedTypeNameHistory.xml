@@ -8,9 +8,13 @@
 <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
 <fullyQualifiedTypeName name="java.awt.Component"/>
 <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
-<fullyQualifiedTypeName name="java.awt.Container"/>
 <fullyQualifiedTypeName name="java.awt.event.ItemListener"/>
-<fullyQualifiedTypeName name="java.awt.event.ItemEvent"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="javax.swing.event.ChangeListener"/>
+<fullyQualifiedTypeName name="java.awt.Container"/>
+<fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
+<fullyQualifiedTypeName name="java.awt.GridBagConstraints"/>
+<fullyQualifiedTypeName name="BMI_EastPanel"/>
+<fullyQualifiedTypeName name="java.awt.event.ItemEvent"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
 </qualifiedTypeNameHistroy>
