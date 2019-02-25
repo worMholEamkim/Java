@@ -1,7 +1,9 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 public class DR_MyListener implements ActionListener {
 
 	private DR_MyPanel p;
@@ -13,8 +15,20 @@ public class DR_MyListener implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		cnt++;
+		
+		//°´Ã¼ »ý¼º ¹× ÄÄÆ÷³ÍÆ® »ðÀÔ
+		p.input[cnt] = new JTextField(10);
+		p.timeSet[cnt] = new JComboBox<String>(p.TIME);
+		p.inputSet[cnt] = new JPanel();
+		p.inputSet[cnt].add(p.timeSet[cnt]);
+		p.inputSet[cnt].add(p.input[cnt]);
 		p.add(p.inputSet[cnt]);
+		cnt++;
+		
+		//È­¸é °»½Å
+		p.revalidate();
+		p.repaint();
+		
 	}
 
 }
