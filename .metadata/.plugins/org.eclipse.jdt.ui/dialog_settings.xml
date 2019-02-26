@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="C:\Workspace\study_web\Java\eclipse-workspace" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="false" key="OmitCallToSuper"/>
